@@ -1,0 +1,55 @@
+﻿body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+}
+h1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: xx-large;
+}
+.move {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    position:relative;
+    animation-name: roll;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    visibility:hidden;
+    
+
+}
+
+
+
+@keyframes roll {
+    0% {
+        left: 1600px;
+        transform:rotate('0 deg');
+        opacity: 1;
+        visibility:visible; 
+                               
+    }
+    25%{
+        bottom: 1200px;
+        opacity: 1;
+
+    }
+
+    100% {
+        right: 1000px;
+        transform: rotate(359deg);
+        opacity: 0;
+        visibility:hidden;
+    }
+
+}
+

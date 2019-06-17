@@ -1,0 +1,13 @@
+﻿body
+{
+    overflow:hidden;
+    background-color: azure;
+}
+
+.bubble
+{
+    position: absolute;
+    border-radius: 50%;
+    top:0;
+    left:0;
+}
